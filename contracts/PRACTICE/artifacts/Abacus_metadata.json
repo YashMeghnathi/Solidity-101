@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "n",
+						"type": "int256"
+					}
+				],
+				"name": "addInteger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sumOfIntegers",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Rough.sol": "Abacus"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Rough.sol": {
+			"keccak256": "0x8aff3b06aa40fde8dd8264df300a68843d06f6f43de546d3f20e67ccc2c76ce7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50a087be8caecf9792276b96916cd26895204994cddc71aae484aba409a59fd9",
+				"dweb:/ipfs/QmeYpR8RggTeK67n2kKJYmxDvhTrae4BzDmjofV6ibCfBv"
+			]
+		}
+	},
+	"version": 1
+}

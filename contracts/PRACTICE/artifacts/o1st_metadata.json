@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "go",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ho",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Rough.sol": "o1st"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Rough.sol": {
+			"keccak256": "0x2acf6822d5c9caf34e888fab9d72a3d8f1bc5cdfb2edcef24b751de16f5a62f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://970227f4903a594711d7bf988f96dd01ba7352559d43c9d6e3106cf3b40bb046",
+				"dweb:/ipfs/QmaZQAxzYHTjFoqNv5Xk9BV6ZMaDK6Z6dQ8NPEvrAYQcRB"
+			]
+		}
+	},
+	"version": 1
+}

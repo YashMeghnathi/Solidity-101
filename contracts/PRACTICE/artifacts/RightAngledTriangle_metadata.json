@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Pythagoras.sol": "RightAngledTriangle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Pythagoras.sol": {
+			"keccak256": "0x5f1bbdcb119b920269522b4c4d3ca7b6bf32979b738b32037fa21d8e1631c110",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c1131d590a95c09ac82413958de97f3f9370e5eb707053e5adb4340129567a3f",
+				"dweb:/ipfs/QmfEp6yG8pmwZcWjRY6RCnpspYAPR2Tu7BvxdR4hSazEgB"
+			]
+		}
+	},
+	"version": 1
+}

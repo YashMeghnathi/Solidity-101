@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "vb",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Rough.sol": "tp"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Rough.sol": {
+			"keccak256": "0x23f7cd53a90410897b07bd041f97c626b6af6128b7ec2af17b7cae6660899e0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60992746c4162f62d90244b85c68b6b6b10403c9ecd5b1f792fdaeacd660ba6d",
+				"dweb:/ipfs/QmQ6fXxos9KNiNwpbynChQf1nMhry7YoMycNLjTpATqQUf"
+			]
+		}
+	},
+	"version": 1
+}

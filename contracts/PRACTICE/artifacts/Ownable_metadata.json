@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/A_Simple_Basic_Secret_Vault.sol": "Ownable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/A_Simple_Basic_Secret_Vault.sol": {
+			"keccak256": "0x880d0ff17033a4ebc04a2c6df746fccc23423922422cf77b575be1b0a69587e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d516957d4a54be02abc4654ecbe39aadab11b5845c7f9e79e6b68688004c848",
+				"dweb:/ipfs/QmQCVAh1WLPbr5EN9j3dwHhMo1K3BEW1xtNFtyHEnk4Bxx"
+			]
+		}
+	},
+	"version": 1
+}

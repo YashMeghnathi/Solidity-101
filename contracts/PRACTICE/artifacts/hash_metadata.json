@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "genpass",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "password",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "sendmoney",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Hashing.sol": "hash"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Hashing.sol": {
+			"keccak256": "0xef7c28a80f426e23a9ec6c7cd57032bfd3756df0f8b4c47f5d3ebeed84264040",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://751b112cc8669c4b789e0ed0441658f53eeccc9e6651b96b504e75c0d1f94f18",
+				"dweb:/ipfs/QmSjXY9sY4nT3Tjg2X5a5rgTcgSxGC5dndK5FjTP87Fo2S"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "choice",
+				"outputs": [
+					{
+						"internalType": "enum Enum.size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMedium",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Enum.sol": "Enum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Enum.sol": {
+			"keccak256": "0x561c9fab58bec66ca32e3352e7abc214889a1658199e3c03fc64e1a806512ce2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16c45cbf75ada7ba7b0280d97dcf4df117fa9beff529fcdd34a6ba5c3806558f",
+				"dweb:/ipfs/QmV6vcGZREEvMqB3YbA2B2kPv9x8NzDdjrHg4xQV74Pcds"
+			]
+		}
+	},
+	"version": 1
+}

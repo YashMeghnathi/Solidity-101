@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "weight",
+						"type": "uint256"
+					}
+				],
+				"name": "availableDiamonds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "weights",
+						"type": "uint256[]"
+					}
+				],
+				"name": "importDiamonds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Rough.sol": "DiamondLedger"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Rough.sol": {
+			"keccak256": "0xac6c5305b0cb7820a49f66a31b4f2fc6531a1ac7014a278cd6b18b5898683b87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dd699230a63111affe17bb6eef032d7cda270bbbd82e550a6ecae2cea0badfc",
+				"dweb:/ipfs/QmctnmAPhEfVq8Au33dns3w8uztwX3WuCCKooqskaqBEYi"
+			]
+		}
+	},
+	"version": 1
+}

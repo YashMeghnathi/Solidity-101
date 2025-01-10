@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateFactorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Factorial.sol": "FactorialContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Factorial.sol": {
+			"keccak256": "0x548aaf50446dffbddc6f9f1b9ef285fef2cb490d82ade7628805c31abf706cae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ccc4740c597022329311f1b52c3eea223a6f5203166bc351092e157078422dd",
+				"dweb:/ipfs/QmaLgaU5UwxXHCtyrLt3ZpMJih2FPzYjQtQpJhP9vYGzEn"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Data Locations.sol": "MemoryExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Data Locations.sol": {
+			"keccak256": "0xfe8afe90608f387b773885db5178e2dc6b53be629ec83f745091cb1d5742403c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0af0b953f64c197c29dd8ce5e33f2a16b7dbab82a271e4c2778a2f3499d10fbc",
+				"dweb:/ipfs/Qmf1rXRSaV37mbQCMKYGRY9ApwtxCJHNvE6XqUoNzHLhnu"
+			]
+		}
+	},
+	"version": 1
+}

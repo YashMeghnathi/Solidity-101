@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "playerAddress",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "jerseyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTeamPlayers",
+				"outputs": [
+					{
+						"internalType": "int256[16]",
+						"name": "",
+						"type": "int256[16]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initializeTeam",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "jerseyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "removePlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "jerseyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "selectJerseyNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "teamPlayers",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "newAddress",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "jerseyNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "updatePlayerAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Team Registration(question).sol": "Team"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Team Registration(question).sol": {
+			"keccak256": "0xb25b2922ebab33d47aae4c9b4cdc481ad9aa539e652b6ba2293b439ab4326dbc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98c070d554a17720f42213689e207ee8884c73de2383c43bd9eda875e1d9e64b",
+				"dweb:/ipfs/QmdiWErhbX11Vt3ysfBu98URi9t8R5q8hzFdUytJHbmffw"
+			]
+		}
+	},
+	"version": 1
+}

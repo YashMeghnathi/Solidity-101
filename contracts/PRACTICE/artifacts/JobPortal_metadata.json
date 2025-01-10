@@ -1,0 +1,276 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isSkilled",
+						"type": "bool"
+					}
+				],
+				"name": "addNewApplicant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_jobID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_jobTitle",
+						"type": "string"
+					}
+				],
+				"name": "addNewJob",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_jobID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_additionalInfo",
+						"type": "string"
+					}
+				],
+				"name": "applyForJob",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					}
+				],
+				"name": "fetchApplicantRating",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					}
+				],
+				"name": "getApplicantDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "location",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rating",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "applicantID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "isSkilled",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct JobPortal.Applicant",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					}
+				],
+				"name": "getApplicantType",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_jobID",
+						"type": "uint256"
+					}
+				],
+				"name": "getJobDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "jobID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "jobTitle",
+								"type": "string"
+							}
+						],
+						"internalType": "struct JobPortal.Job",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_applicantID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_rating",
+						"type": "uint8"
+					}
+				],
+				"name": "giveRating",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Project-Job-Portal.sol": "JobPortal"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Project-Job-Portal.sol": {
+			"keccak256": "0xbac021a98ce678e3f27aafb07738ceb3b6b0601b899d74812720ced9f98681fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74556637dfb7210174c4f33b2af80fa73f7c73164f578f09123b5948d58b8301",
+				"dweb:/ipfs/QmPUedvKe9bTwMG4RBcqKCBkzqxPHoJ6xbs7Ycsbftjafs"
+			]
+		}
+	},
+	"version": 1
+}

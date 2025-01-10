@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdrawal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Basic Withdraw & Deposit.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Basic Withdraw & Deposit.sol": {
+			"keccak256": "0x4f7d69282d6bbe6b9bab1e5f0adf32f91f8c7abd6a01b284844d40bd15410bdc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86be34260ee1a4ee3517a7fa7855fbceb58bb94060f5b8cca6eccbb172b6a5a5",
+				"dweb:/ipfs/QmS1sLkrRPCVSdR69x2U4ZNXzmzcLy9ZnWCK84q7v42SrF"
+			]
+		}
+	},
+	"version": 1
+}

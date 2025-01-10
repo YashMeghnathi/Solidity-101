@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/Overriding.sol": "base1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/Overriding.sol": {
+			"keccak256": "0xd75e92b83d28205b843040603cad8045c599ff8caa64bfaeae023cd3b9010908",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4f23fd1ba9adb725ea9507857ccde3ca1ac415bcae53a3be218e8b058cf0b1c",
+				"dweb:/ipfs/QmQxE1nm3QqQNYe1kJLbED4pyHWMrJQy2wvqTX6Fgd7Q2R"
+			]
+		}
+	},
+	"version": 1
+}

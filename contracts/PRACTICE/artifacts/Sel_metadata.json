@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "gcd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PRACTICE/GCD.sol": "Sel"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PRACTICE/GCD.sol": {
+			"keccak256": "0x5a249f6ef6a922af75f1ec1d813f00cca18701a163865b12a9c314b5bdc90410",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e2f91287324827c4195ed1af625c58ada63790ccb1ca1b5fd04d48e77e860c1",
+				"dweb:/ipfs/QmadLmhDDoDpbuqsk8SWp7EScw6mD2ho6UMKQjBMffitLF"
+			]
+		}
+	},
+	"version": 1
+}
