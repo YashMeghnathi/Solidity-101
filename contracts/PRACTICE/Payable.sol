@@ -12,3 +12,22 @@ contract Payable{
     return owner. balance; 
     }
 }
+// pragma solidity ^0.8.0;// this is when you need to click transactnear call data for getting ether from another account
+
+// contract HCF {
+
+//     // Withdraw function
+//     function withdraw(uint wa) public  {
+//         // Ensure the requested withdrawal is not more than 1 Ether (1e18 wei)
+//         require(wa <= 1000000000000000000, "Exceeds the limit of 1 Ether");
+
+//         // Check if the contract has enough balance to process the withdrawal
+//         require(address(this).balance >= wa, "Insufficient contract balance");
+
+//         // Transfer the requested amount to the caller
+//         payable(msg.sender).transfer(wa);
+//     }
+
+//     // Allow the contract to receive Ether
+//     receive() external payable {}
+// }
