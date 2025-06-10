@@ -1,3 +1,4 @@
+This is the Repository that has majorly basics and practice of coding in solidity I had done.
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
